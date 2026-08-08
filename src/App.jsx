@@ -84,7 +84,7 @@ const App = () => {
         >
           <img
             className="rounded-full h-32 w-32 md:h-48 md:w-48 lg:h-64 lg:w-64 object-cover border-4 border-cyan-400 shadow-lg shadow-cyan-400/30"
-            src="/portfolio/myphoto.jpeg"
+            src="./myphoto.jpeg"
             alt="Parveen Sahrawat"
           />
           <div className="text-white text-lg md:text-2xl mt-3">
