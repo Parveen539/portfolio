@@ -329,7 +329,7 @@ const App = () => {
           <div className="text-cyan-500/50 text-sm mb-2">
             MAINFRAME TERMINAL v2.0
           </div>
-          <div className="whitespace-pre-wrap text-cyan-400">
+          <div className="whitespace-pre-wrap text-[#o00ff41]">
             {terminalOutput.map((line, i) => (
               <div
                 key={i}
