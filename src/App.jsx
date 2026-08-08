@@ -326,7 +326,7 @@ const App = () => {
           Green-Screen Simulator
         </h2>
         <div className="bg-black border border-cyan-500/30 p-5 rounded-xl font-mono min-h-[250px] shadow-lg shadow-cyan-500/10">
-          <div className="text-cyan-500/50 text-sm mb-2">
+          <div className="text-[#00ff41] text-sm mb-2">
             MAINFRAME TERMINAL v2.0
           </div>
           <div className="whitespace-pre-wrap text-[#00ff41]">
@@ -334,7 +334,7 @@ const App = () => {
               <div
                 key={i}
                 className={
-                  line.startsWith("> ") ? "text-cyan-300" : "text-cyan-400/80"
+                  line.startsWith("> ") ? "text-[#00ff41]" : "text-[#00ff41]/80"
                 }
               >
                 {line}
@@ -342,16 +342,16 @@ const App = () => {
             ))}
           </div>
           <div className="flex items-center mt-3">
-            <span className="text-cyan-400 mr-2">&gt;</span>
+            <span className="text-[#00ff41] mr-2">&gt;</span>
             <input
-              className="flex-1 bg-transparent text-cyan-300 outline-none font-mono caret-cyan-400"
+              className="flex-1 bg-transparent text-[#00ff41] outline-none font-mono caret-[#00ff41]"
               value={terminalInput}
               onChange={(e) => setTerminalInput(e.target.value)}
               onKeyDown={handleTerminalCommand}
               placeholder="Type HELP and press Enter"
               autoFocus
             />
-            <span className="animate-pulse text-cyan-400">▌</span>
+            <span className="animate-pulse text-[#00ff41]">▌</span>
           </div>
         </div>
       </section>
